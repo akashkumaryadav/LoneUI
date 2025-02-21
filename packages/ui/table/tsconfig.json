@@ -1,0 +1,21 @@
+{
+    "extends": "@lone-ui/typescript-config/nextjs.json",
+    "compilerOptions": {
+      "plugins": [
+        {
+          "name": "next"
+        }
+      ]
+    },
+    "include": [
+      "**/*.ts",
+      "**/*.tsx",
+      "next-env.d.ts",
+      "next.config.js",
+      ".next/types/**/*.ts"
+, "webpack.config.js"    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
